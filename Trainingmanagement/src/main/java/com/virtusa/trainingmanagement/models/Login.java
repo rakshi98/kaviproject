@@ -5,18 +5,6 @@ public class Login
 	private String emailId;
 	private String password;
 	private String role;
-<<<<<<< HEAD
-	
-	
-	public Login(String emailId,String password,String role)
-	{
-		this.emailId = emailId;
-		this.password = password;
-		this.role=role;
-	}
-	
-=======
->>>>>>> branch 'master' of https://github.com/rakshi98/kaviproject.git
 	public String getEmailId() {
 		return emailId;
 	}

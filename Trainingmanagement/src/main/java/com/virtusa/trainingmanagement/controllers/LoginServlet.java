@@ -10,42 +10,12 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-<<<<<<< HEAD
 
 import com.virtusa.trainingmanagement.daoimplementations.LoginImpl;
 import com.virtusa.trainingmanagement.daointerfaces.LoginDao;
 import com.virtusa.trainingmanagement.models.Login;
 
-
-
-/**
- * Servlet implementation class LoginServlet
- */
-@WebServlet("/LoginServlet")  
-public class LoginServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
-	RequestDispatcher dispatcher;
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
-	{
-		PrintWriter out=response.getWriter();
-		response.setContentType("text/html");
-		String emailId=request.getParameter("emailId");
-		String password=request.getParameter("password");
-		String role=request.getParameter("role");
-		
-		
-		//read values from ajax call
-		
-		//model
-		Login login=new Login(emailId,password,role);
-=======
 import javax.servlet.http.HttpSession;
-
-import com.virtusa.trainingmanagement.daoimplementations.LoginImpl;
-import com.virtusa.trainingmanagement.daointerfaces.LoginDao;
-import com.virtusa.trainingmanagement.models.Login;
-
-
 
 /**
  * Servlet implementation class LoginServlet
@@ -66,7 +36,6 @@ public class LoginServlet extends HttpServlet {
 		
 		//model
 		Login login=new Login();
->>>>>>> branch 'master' of https://github.com/rakshi98/kaviproject.git
 		login.setEmailId(request.getParameter("emailId"));
 		login.setPassword(request.getParameter("password"));
 		login.setRole(request.getParameter("role"));

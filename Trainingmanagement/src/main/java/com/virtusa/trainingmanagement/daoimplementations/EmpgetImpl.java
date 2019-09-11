@@ -32,10 +32,6 @@ public class EmpgetImpl
 	         
 	                Admin_Scheduletraining e = new Admin_Scheduletraining();                
 	                e.setTrainingid(res.getString(1));
-<<<<<<< HEAD
-	                System.out.println(res.getString(1));
-=======
->>>>>>> branch 'master' of https://github.com/rakshi98/kaviproject.git
 	                e.setTrainingtitle(res.getString(2));
 	                e.setDomain(res.getString(3));
 	                e.setStartdate(res.getDate(4));
