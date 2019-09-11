@@ -29,7 +29,11 @@
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Training<span class="caret"></span></a>
           <ul class="dropdown-menu">
+<<<<<<< HEAD
             <li><a href="/Trainingmanagement/EmpApplytraining">Apply</a></li>
+=======
+            <li><a href="/Trainingmanagement/EmpApplytrainingServlet">Apply</a></li>
+>>>>>>> branch 'master' of https://github.com/rakshi98/kaviproject.git
             <li class="active"><a href="#">Post</a></li>
           </ul>
         </li>

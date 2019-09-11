@@ -23,7 +23,11 @@ public class AdminscheduletrainingImpl implements Admin_ScheduletrainingDAO {
 		try
 		{
 			con =OracleHelper.getConnection();
+<<<<<<< HEAD
 			PreparedStatement pt=con.prepareStatement("{call adminpost(?,?,?,?,?,?)}");
+=======
+			PreparedStatement pt=con.prepareStatement("insert into postadmin(trainingid,trainingtitle,domain,startdate,enddate,venue)values(?,?,?,?)");
+>>>>>>> branch 'master' of https://github.com/rakshi98/kaviproject.git
 			pt.setString(1,trainingId);
 			pt.setString(2,trainingTitle);
 			pt.setString(3,domain);

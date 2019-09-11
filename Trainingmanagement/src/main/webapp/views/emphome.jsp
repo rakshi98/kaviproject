@@ -37,7 +37,11 @@ String employeeDesignation=(String)session1.getAttribute("employeeDesignation");
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Training<span class="caret"></span></a>
           <ul class="dropdown-menu">
+<<<<<<< HEAD
             <li><a href="../views/empapplytraining.jsp">Apply</a></li>
+=======
+            <li><a href="/Trainingmanagement/EmpApplytrainingServlet">Apply</a></li>
+>>>>>>> branch 'master' of https://github.com/rakshi98/kaviproject.git
             <li><a href="../views/empposttraining.jsp">Post</a></li>
           </ul>
         </li>

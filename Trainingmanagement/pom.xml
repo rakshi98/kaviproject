@@ -26,7 +26,11 @@
 <dependency>
     <groupId>com.oracle</groupId>
     <artifactId>ojdbc6</artifactId>
+<<<<<<< HEAD
     <version>11.2.0.4.0</version>
+=======
+    <version>11.2.0</version>
+>>>>>>> branch 'master' of https://github.com/rakshi98/kaviproject.git
     <scope>runtime</scope>
 </dependency>
 
